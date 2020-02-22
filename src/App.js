@@ -1,19 +1,16 @@
 import React from "react";
 import "./App.css";
-import { useSelector, useDispatch } from "react-redux";
-import { loginStatus } from "./actions";
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
 
 function App() {
-  //pulling our reducer from anywhere.
-  //dummy example. will be changed later.
-  const login = useSelector(state => state.login);
-  const dispatch = useDispatch();
-
   return (
-    <div className="App">
-      <h1>hello world. Login status: {login.toString()}</h1>
-      <button onClick={() => dispatch(loginStatus())}>login/logout</button>
-    </div>
+    <BrowserRouter>
+      <div>navbar</div>
+      <Route path="/" exact component={Home} />
+      <Route path="/about" exact component={About} />
+    </BrowserRouter>
   );
 }
 
