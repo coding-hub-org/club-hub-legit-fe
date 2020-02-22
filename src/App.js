@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { useSelector, useDispatch } from "react-redux";
+import { loginStatus } from "./actions";
 
 function App() {
+  //pulling our reducer from anywhere.
+  //dummy example. will be changed later.
+  const login = useSelector(state => state.login);
+  const dispatch = useDispatch();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello world. Login status: {login.toString()}</h1>
+      <button onClick={() => dispatch(loginStatus())}>login/logout</button>
     </div>
   );
 }
