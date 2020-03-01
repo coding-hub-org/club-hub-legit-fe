@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { loginStatus } from "../actions";
+import { loginStatus } from "../../actions";
 
 function Home() {
   //pulling our reducer from anywhere.
