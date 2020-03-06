@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Navbar from "./components/Navbar";
-import Login from "./components/Authentication";
-import ClubInfo from "./components/ClubInfo";
-import PageNotFound from "./components/PageNotFound";
+import Home from "./components/HomePage/Home";
+import About from "./components/AboutPage/About";
+import Navbar from "./components/Navbar/Navbar";
+import Login from "./components/LoginPage/Authentication";
+import ClubInfo from "./components/ClubPage/ClubInfo";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (

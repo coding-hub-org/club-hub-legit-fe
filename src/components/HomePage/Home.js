@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { loginStatus } from "../actions";
-import "../Home.css";
+//import { loginStatus } from "../actions";
+import "./Home.css";
 
 function Home() {
   //pulling our reducer from anywhere.
