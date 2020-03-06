@@ -29,6 +29,7 @@ function Home() {
       <div className="all-clubs-section">
         <h3 id="all-clubs">All Clubs</h3>
         <Clubs />
+        <Clubs />
       </div>
     </div>
   );
