@@ -28,7 +28,11 @@ function Home() {
 
       <div className="all-clubs-section">
         <h3 id="all-clubs">All Clubs</h3>
-        <Clubs />
+        <div className="club-containers">
+          <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
+          <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
+
+        </div>
       </div>
     </div>
   );

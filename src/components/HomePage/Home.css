@@ -41,3 +41,10 @@ button:hover {
 #all-clubs {
     margin-left: 3%;
 }
+
+.club-containers {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    
+}
