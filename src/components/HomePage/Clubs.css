@@ -1,14 +1,14 @@
-.club-img {
-    padding: 5%;
-    margin-left: 3.2%;
+#club-img {
+    padding: 21.5%;
+    margin-left: 12.2%;
     width: 30px;
     border-style: solid;
     border-color: black;
-    border-radius:10px; ;
+    border-radius:10px; 
 }
 
 p {
-    margin-left: 3.2%;
+    margin-left: 12.2%;
     font-size: 14px;
     margin-top:0.1%;
     margin-bottom:0.1%;
@@ -16,4 +16,5 @@ p {
 
 #p2 {
     font-size: 12px;
+    margin-bottom: 5%;
 }

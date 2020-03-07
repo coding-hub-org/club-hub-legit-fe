@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Clubs.css";
 
+
 class Clubs extends Component {
   constructor(props) {
     super(props);
@@ -13,6 +14,7 @@ class Clubs extends Component {
         <p id="p1">*placeholder1*</p>
 
         <p id="p2">*placeholder2*</p>
+      
       </div>
     );
   }
