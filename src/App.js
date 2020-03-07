@@ -18,7 +18,7 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/login" component={Login} />
-        <Route path="/club" component={ClubInfo} />
+        <Route path="/club/:id" component={ClubInfo} />
         <Route path="/" component={PageNotFound} />
       </Switch>
     </BrowserRouter>
