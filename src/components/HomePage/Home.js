@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 //import { loginStatus } from "../actions";
 import "./Home.css";
 import Clubs from "./Clubs";
+import Featured from "./Featured";
 
 function Home() {
   //pulling our reducer from anywhere.
@@ -13,6 +14,7 @@ function Home() {
   return (
     <div>
       <div className="feat-clubs-section">
+        <Featured />
         <h3 id="featured-clubs">Featured Clubs of the week</h3>
         <p id="featured-clubs-text">
           Top clubs based on attendance and reviews last week
