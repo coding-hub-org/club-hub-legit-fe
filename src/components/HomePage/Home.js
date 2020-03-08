@@ -14,11 +14,11 @@ function Home() {
   return (
     <div>
       <div className="feat-clubs-section">
-        <Featured />
         <h3 id="featured-clubs">Featured Clubs of the week</h3>
         <p id="featured-clubs-text">
           Top clubs based on attendance and reviews last week
         </p>
+        <Featured />
       </div>
 
       <div className="category-section">
