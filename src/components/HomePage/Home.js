@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 //import { loginStatus } from "../actions";
 import "./Home.css";
 import Clubs from "./Clubs";
+import Featured from "./Featured";
 
 function Home() {
   //pulling our reducer from anywhere.
@@ -17,6 +18,7 @@ function Home() {
         <p id="featured-clubs-text">
           Top clubs based on attendance and reviews last week
         </p>
+        <Featured />
       </div>
 
       <div className="category-section">
@@ -33,7 +35,7 @@ function Home() {
           <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
           <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
         </div>
-    
+
       </div>
     </div>
   );
