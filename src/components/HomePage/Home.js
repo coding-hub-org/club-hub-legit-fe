@@ -32,9 +32,9 @@ function Home() {
         <div className="club-containers">
           <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
           <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs /> <Clubs />
-
         </div>
     
+      </div>
     </div>
   );
 }
